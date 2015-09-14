@@ -28,6 +28,7 @@ public class Main {
         checkCorrectness(unsorted, MergeSort.doIt(unsorted.clone()));
 
         System.out.println("******QuickSort******\n");
+        checkCorrectness(unsorted, QuickSort.doIt(unsorted.clone()));
     }
 
     public static void checkCorrectness(int[] orig, int[] sorted){
